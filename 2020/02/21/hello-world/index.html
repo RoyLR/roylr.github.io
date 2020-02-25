@@ -20,16 +20,17 @@
     var CONFIG = {"hostname":"blog.scilr.xyz","root":"/","scheme":"Mist","version":"7.7.1","exturl":false,"sidebar":{"position":"left","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":true,"show_result":true,"style":"mac"},"back2top":{"enable":true,"sidebar":false,"scrollpercent":true},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
-  <meta name="description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+  <meta name="description" content="Markdown是一种纯文本格式的标记语言。一提到语言，很多同学第一反应就是“难”、“复杂”等标签。  “这不应该是程序猿、攻城狮的事情吗？”  但经过我的实践，结论是一般正常人用5分钟时间学习，20分钟时间练习，即可掌握。在这里也向大家推荐此项语法用于写作。 Markdown的优势一、书写过程流畅一谈到文本编辑，相信很多人第一想到的就是Word。用Word进行文字编辑的时候，一般情况是用两个不连">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hello World">
+<meta property="og:title" content="Markdown 基本语法">
 <meta property="og:url" content="http://blog.scilr.xyz/2020/02/21/hello-world/index.html">
 <meta property="og:site_name" content="Roy&#39;s Blog">
-<meta property="og:description" content="Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub. Quick">
+<meta property="og:description" content="Markdown是一种纯文本格式的标记语言。一提到语言，很多同学第一反应就是“难”、“复杂”等标签。  “这不应该是程序猿、攻城狮的事情吗？”  但经过我的实践，结论是一般正常人用5分钟时间学习，20分钟时间练习，即可掌握。在这里也向大家推荐此项语法用于写作。 Markdown的优势一、书写过程流畅一谈到文本编辑，相信很多人第一想到的就是Word。用Word进行文字编辑的时候，一般情况是用两个不连">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2020-02-21T05:22:08.203Z">
-<meta property="article:modified_time" content="2020-02-21T05:22:08.204Z">
+<meta property="article:modified_time" content="2020-02-24T08:24:08.909Z">
 <meta property="article:author" content="Roy">
+<meta property="article:tag" content="Markdown">
 <meta name="twitter:card" content="summary">
 
 <link rel="canonical" href="http://blog.scilr.xyz/2020/02/21/hello-world/">
@@ -44,7 +45,7 @@
   };
 </script>
 
-  <title>Hello World | Roy's Blog</title>
+  <title>Markdown 基本语法 | Roy's Blog</title>
   
 
 
@@ -101,6 +102,7 @@
         <span class="logo-line-after"><i></i></span>
       </a>
     </div>
+        <p class="site-subtitle">当生活心怀歹毒地将一切都搞成了黑色幽默，我顺水推舟把自己变成了一个受过高等教育的流氓。</p>
   </div>
 
   <div class="site-nav-right"></div>
@@ -113,11 +115,6 @@
         <li class="menu-item menu-item-home">
 
     <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
-
-  </li>
-        <li class="menu-item menu-item-about">
-
-    <a href="/about/" rel="section"><i class="fa fa-fw fa-user"></i>关于</a>
 
   </li>
         <li class="menu-item menu-item-tags">
@@ -191,7 +188,7 @@
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.jpeg">
       <meta itemprop="name" content="Roy">
-      <meta itemprop="description" content="">
+      <meta itemprop="description" content="看庭前花开花落，望天外云卷云舒">
     </span>
 
     <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
@@ -199,7 +196,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Hello World
+          Markdown 基本语法
         </h1>
 
         <div class="post-meta">
@@ -211,8 +208,40 @@
 
               <time title="创建时间：2020-02-21 13:22:08" itemprop="dateCreated datePublished" datetime="2020-02-21T13:22:08+08:00">2020-02-21</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="fa fa-calendar-check-o"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-02-24 16:24:08" itemprop="dateModified" datetime="2020-02-24T16:24:08+08:00">2020-02-24</time>
+              </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E8%AF%AD%E8%A8%80/" itemprop="url" rel="index">
+                    <span itemprop="name">语言</span>
+                  </a>
+                </span>
+            </span>
 
           
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+      <span class="post-meta-item-text">Valine：</span>
+    
+    <a title="valine" href="/2020/02/21/hello-world/#valine-comments" itemprop="discussionUrl">
+      <span class="post-comments-count valine-comment-count" data-xid="/2020/02/21/hello-world/" itemprop="commentCount"></span>
+    </a>
+  </span>
+  
+  
 
         </div>
       </header>
@@ -223,15 +252,24 @@
     <div class="post-body" itemprop="articleBody">
 
       
-        <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
+        <p>Markdown是一种纯文本格式的标记语言。一提到语言，很多同学第一反应就是“难”、“复杂”等标签。</p>
+<blockquote>
+<p>“这不应该是程序猿、攻城狮的事情吗？”</p>
+</blockquote>
+<p>但经过我的实践，结论是一般<strong>正常人</strong>用5分钟时间学习，20分钟时间练习，即可掌握。在这里也向大家推荐此项语法用于写作。</p>
+<h2 id="Markdown的优势"><a href="#Markdown的优势" class="headerlink" title="Markdown的优势"></a>Markdown的优势</h2><h3 id="一、书写过程流畅"><a href="#一、书写过程流畅" class="headerlink" title="一、书写过程流畅"></a>一、书写过程流畅</h3><p>一谈到文本编辑，相信很多人第一想到的就是Word。用Word进行文字编辑的时候，一般情况是用两个不连续的动作：输入文字的时候双手在键盘上，编辑文字则需视线和手离开输入框和键盘，去寻找和点击功能按钮。</p>
+<blockquote>
+<p>这儿有两种是Word最有效率的编辑方式：</p>
+<ul>
+<li>一次性输入全部文字，再去编辑文字格式</li>
+<li>快捷键实现直接在文本内排版功能</li>
+</ul>
+</blockquote>
+<p>而Markdown的<strong>书写流畅</strong>就体现在将这两个动作合成一个输入字符的动作。视线一直固定在光标处，手不需要脱离键盘，只是输入是使用不同的字符就能同时完成编辑和输入。这种体验类似纸笔时代的书写，使用者全部注意力都可以集中在大脑中的语句输出，而不用不停的切换。</p>
+<h3 id="二、格式不随编辑器而改变，导出分享方便"><a href="#二、格式不随编辑器而改变，导出分享方便" class="headerlink" title="二、格式不随编辑器而改变，导出分享方便"></a>二、格式不随编辑器而改变，导出分享方便</h3><p>用于Word书写的工具有Office和WPS的各个不同版本，同时随着Mac用户的增多(特别是文字工作者使用Mac的比例越来越大)，Word的样式很容易出现问题。同时，Word的分享方式也非常受制约。<br>而Markdown则完全规避工具、版本带来的风险。用来分享，也远比富文本格式省心。</p>
+<h2 id="Markdown不适合使用场景"><a href="#Markdown不适合使用场景" class="headerlink" title="Markdown不适合使用场景"></a>Markdown不适合使用场景</h2><h3 id="一、Markdown无法对段落进行灵活处理"><a href="#一、Markdown无法对段落进行灵活处理" class="headerlink" title="一、Markdown无法对段落进行灵活处理"></a>一、Markdown无法对<strong>段落</strong>进行灵活处理</h3><p>在Word中你可以随意插入文本框，调整它的位置。尽管这并不是一个常见的用法，但是这意味着，Word能以段落为单位进行排版（Latex也能做到相似的效果），相比Markdown只能线性的对文字排版，专门的排版软件无疑是更能满足专业需求的。</p>
+<h3 id="二、Markdown对非文本排版能力差"><a href="#二、Markdown对非文本排版能力差" class="headerlink" title="二、Markdown对非文本排版能力差"></a>二、Markdown对非文本排版能力差</h3><p>Markdown引入图片很简单，但对于位置等排版方式很难做到自适应。</p>
+<h3 id="Markdown语法"><a href="#Markdown语法" class="headerlink" title="Markdown语法"></a>Markdown语法</h3><p>网络上已经有很多关于Markdown语法的介绍，这儿重新做下记录，并详细补充一下相关踩过的坑</p>
 
     </div>
 
@@ -259,6 +297,9 @@
 
 
       <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Markdown/" rel="tag"># Markdown</a>
+          </div>
 
         
 
@@ -276,6 +317,7 @@
 
           </div>
           
+    <div class="comments" id="valine-comments"></div>
 
 <script>
   window.addEventListener('tabs:register', () => {
@@ -322,7 +364,7 @@
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Quick-Start"><span class="nav-number">1.</span> <span class="nav-text">Quick Start</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Create-a-new-post"><span class="nav-number">1.1.</span> <span class="nav-text">Create a new post</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Run-server"><span class="nav-number">1.2.</span> <span class="nav-text">Run server</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Generate-static-files"><span class="nav-number">1.3.</span> <span class="nav-text">Generate static files</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Deploy-to-remote-sites"><span class="nav-number">1.4.</span> <span class="nav-text">Deploy to remote sites</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Markdown的优势"><span class="nav-number">1.</span> <span class="nav-text">Markdown的优势</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、书写过程流畅"><span class="nav-number">1.1.</span> <span class="nav-text">一、书写过程流畅</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、格式不随编辑器而改变，导出分享方便"><span class="nav-number">1.2.</span> <span class="nav-text">二、格式不随编辑器而改变，导出分享方便</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Markdown不适合使用场景"><span class="nav-number">2.</span> <span class="nav-text">Markdown不适合使用场景</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#一、Markdown无法对段落进行灵活处理"><span class="nav-number">2.1.</span> <span class="nav-text">一、Markdown无法对段落进行灵活处理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#二、Markdown对非文本排版能力差"><span class="nav-number">2.2.</span> <span class="nav-text">二、Markdown对非文本排版能力差</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Markdown语法"><span class="nav-number">2.3.</span> <span class="nav-text">Markdown语法</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -331,7 +373,7 @@
     <img class="site-author-image" itemprop="image" alt="Roy"
       src="/images/avatar.jpeg">
   <p class="site-author-name" itemprop="name">Roy</p>
-  <div class="site-description" itemprop="description"></div>
+  <div class="site-description" itemprop="description">看庭前花开花落，望天外云卷云舒</div>
 </div>
 <div class="site-state-wrap motion-element">
   <nav class="site-state">
@@ -341,6 +383,18 @@
           <span class="site-state-item-count">1</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
+      </div>
+      <div class="site-state-item site-state-tags">
+            <a href="/tags/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">标签</span></a>
       </div>
   </nav>
 </div>
@@ -435,6 +489,35 @@
   
 
   
+
+
+<script>
+NexT.utils.loadComments(document.querySelector('#valine-comments'), () => {
+  NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+    var GUEST = ['nick', 'mail', 'link'];
+    var guest = 'nick,mail,link';
+    guest = guest.split(',').filter(item => {
+      return GUEST.includes(item);
+    });
+    new Valine({
+      el         : '#valine-comments',
+      verify     : false,
+      notify     : false,
+      appId      : 'c7nYx8TQJOzGiS4gbIcPDag1-MdYXbMMI',
+      appKey     : 'sf5O05XCJt6tEix6lTS4jkn5',
+      placeholder: "Just go go",
+      avatar     : 'mm',
+      meta       : guest,
+      pageSize   : '10' || 10,
+      visitor    : false,
+      lang       : '' || 'zh-cn',
+      path       : location.pathname,
+      recordIP   : false,
+      serverURLs : ''
+    });
+  }, window.Valine);
+});
+</script>
 
 </body>
 </html>
